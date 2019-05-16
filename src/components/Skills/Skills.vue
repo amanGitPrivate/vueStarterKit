@@ -22,6 +22,7 @@
       <input type="text" placeholder="Enter a skill you have.." v-model="skill">
     </form>
     {{skill}}
+    <p>You chose {{ $store.getters.flavor }}</p>
   </div>
 </template>
 
